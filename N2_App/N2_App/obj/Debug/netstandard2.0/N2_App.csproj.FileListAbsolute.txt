@@ -1,0 +1,17 @@
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\bin\Debug\netstandard2.0\N2_App.deps.json
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\bin\Debug\netstandard2.0\N2_App.dll
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\bin\Debug\netstandard2.0\N2_App.pdb
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\N2_App.csproj.AssemblyReference.cache
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\N2_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\CriarConta.xaml.g.cs
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\Home.xaml.g.cs
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\N2_App.AssemblyInfoInputs.cache
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\N2_App.AssemblyInfo.cs
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\N2_App.csproj.CoreCompileInputs.cache
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\N2_App.dll
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\refint\N2_App.dll
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\N2_App.pdb
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App\obj\Debug\netstandard2.0\ref\N2_App.dll

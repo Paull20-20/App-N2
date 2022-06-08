@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="N2_App.CriarConta">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="#232939" >
+
+
+
+            <Frame BackgroundColor="#232939" Padding="24" CornerRadius="0">
+  
+
+                <Label Text="Cadastro" HorizontalTextAlignment="Center" TextColor="#8D94A8" FontSize="30"/>
+            </Frame>
+
+            <StackLayout Margin="0,110,0,0" >
+                <Image Source=""></Image>
+
+                <Label x:Name="lblLoginCadastro"  Margin="0,25,0,0"  Text="E-mail" FontSize="19" TextColor="#8D94A8" ></Label>
+                <Entry x:Name="entLoginCadastro"  MaxLength="70" Keyboard="Text" FontSize="15" PlaceholderColor="Azure" TextColor="#8D94A8"></Entry>
+                <Label x:Name="lblSenhaCadastro"  Text="Senha" FontSize="19" TextColor="#8D94A8" ></Label>
+                <Entry x:Name="entSenhaCadastro"  MaxLength="70" Keyboard="Text" FontSize="15" IsPassword="True" PlaceholderColor="Azure" TextColor="#8D94A8"></Entry>
+                <Label x:Name="lblSenhaConfirmCadastro"  Text="Confirmar Senha" FontSize="19" TextColor="#8D94A8" ></Label>
+                <Entry x:Name="entSenhaConfirmCadastro"  MaxLength="70" Keyboard="Text" FontSize="15" IsPassword="True" PlaceholderColor="Azure" TextColor="#8D94A8"></Entry>
+ 
+                <!--#8D94A8-->
+                <Button 
+                
+                x:Name="btnCadastrar" 
+                Text="Cadastrar" 
+                FontSize="17" 
+                BackgroundColor="#4BD6B9" 
+                TextColor="Azure" 
+                BorderWidth="1"
+                BorderRadius="99"
+                Margin="50, 30, 50, 10"     
+                Padding="20"
+                Clicked="btnCadastrar_Clicked"
+                >
+
+
+                </Button>
+
+                <Label></Label>
+                <Label  Margin="0,20,0,0" HorizontalOptions="Center" x:Name="lblVoltar" Text="Clique abaixo para voltar para tela de login" FontSize="19" TextColor="#8D94A8" ></Label>
+                <Button x:Name="btnVoltar" Clicked="btnVoltar_Clicked" BackgroundColor="#232939" HorizontalOptions="Center" Text="Clique aqui!" FontSize="15" TextColor="Azure"  ></Button>
+
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

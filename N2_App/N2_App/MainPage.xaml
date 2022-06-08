@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="N2_App.MainPage">
+
+    <StackLayout  BackgroundColor="#232939" >
+      
+
+        <Frame BackgroundColor="#232939" Padding="24" CornerRadius="0">
+
+
+            <Label Text="Login" HorizontalTextAlignment="Center" TextColor="#8D94A8" FontSize="30"/>
+        </Frame>
+
+        <StackLayout Margin="0,130,0,0" >
+            <Image Source=""></Image>
+
+            <Label x:Name="lblLogin"  Margin="0,25,0,0"  Text="E-mail" FontSize="19" TextColor="#8D94A8" ></Label>
+            <Entry x:Name="entLogin"  MaxLength="70" Keyboard="Text" FontSize="15" PlaceholderColor="Azure" TextColor="#8D94A8"></Entry>
+            <Label x:Name="lblSenha"  Text="Senha" FontSize="19" TextColor="#8D94A8" ></Label>
+            <Entry x:Name="entSenha"  MaxLength="70" Keyboard="Text" FontSize="15" IsPassword="True" PlaceholderColor="Azure" TextColor="#8D94A8"></Entry>
+
+            <!--#8D94A8-->
+            <Button 
+                
+                x:Name="btnLogar" 
+                Text="Entrar" 
+                FontSize="17" 
+                BackgroundColor="#4BD6B9" 
+                TextColor="Azure" 
+                BorderWidth="1"
+                BorderRadius="99"
+                Margin="50, 30, 50, 10"     
+                Padding="20"
+                Clicked="btnLogar_Clicked" >
+                
+                
+            </Button>
+
+            <Label></Label>
+            <Label  Margin="0,20,0,0" HorizontalOptions="Center" x:Name="lblCriarConta" Text="Não tem conta ?" FontSize="19" TextColor="#8D94A8" ></Label>
+            <Button x:Name="btnCriarConta" BackgroundColor="#232939" HorizontalOptions="Center" Text="Clique aqui!" FontSize="15" TextColor="Azure" Clicked="btnCriarConta_Clicked" ></Button>
+
+        </StackLayout>
+
+
+    </StackLayout>
+
+</ContentPage>
