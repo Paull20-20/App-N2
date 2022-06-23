@@ -11,7 +11,6 @@ using System.Net.Mail;
 namespace N2_App.Class
 {
 
-   
     internal class ClassBase
     {
 

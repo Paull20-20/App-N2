@@ -8,6 +8,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Bcl.AsyncInterfaces.dll",
 		"N2_App.dll",
 		"Npgsql.dll",
+		"RestSharp.dll",
 		"System.Collections.Immutable.dll",
 		"System.Diagnostics.DiagnosticSource.dll",
 		"System.Text.Encodings.Web.dll",

@@ -85,6 +85,7 @@ C:\Users\paulo\source\repos\N2_App\N2_App\N2_App.Android\obj\Debug\120\android\a
 C:\Users\paulo\source\repos\N2_App\N2_App\N2_App.Android\obj\Debug\120\android\assets\N2_App.pdb
 C:\Users\paulo\source\repos\N2_App\N2_App\N2_App.Android\obj\Debug\120\android\assets\netstandard.dll
 C:\Users\paulo\source\repos\N2_App\N2_App\N2_App.Android\obj\Debug\120\android\assets\Npgsql.dll
+C:\Users\paulo\source\repos\N2_App\N2_App\N2_App.Android\obj\Debug\120\android\assets\RestSharp.dll
 C:\Users\paulo\source\repos\N2_App\N2_App\N2_App.Android\obj\Debug\120\android\assets\System.Buffers.dll
 C:\Users\paulo\source\repos\N2_App\N2_App\N2_App.Android\obj\Debug\120\android\assets\System.Collections.Immutable.dll
 C:\Users\paulo\source\repos\N2_App\N2_App\N2_App.Android\obj\Debug\120\android\assets\System.ComponentModel.Composition.dll

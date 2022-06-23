@@ -39,6 +39,18 @@
           "lib/netstandard2.1/Npgsql.dll": {}
         }
       },
+      "RestSharp/108.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -1702,6 +1714,7 @@
         "dependencies": {
           "Correios-Api": "1.1.1",
           "Npgsql": "6.0.4",
+          "RestSharp": "108.0.1",
           "System.ServiceModel.Primitives": "4.9.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -1777,6 +1790,24 @@
         "npgsql.6.0.4.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
+      ]
+    },
+    "RestSharp/108.0.1": {
+      "sha512": "XKwuwWq7A4dxZ8l9QkS2+ePLJ9ImmLaJSeFO6H2kpII4Us4n1NRs4w3c//8H2BYpL1XqBE8nmsd9aNCVBwXmOA==",
+      "type": "package",
+      "path": "restsharp/108.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/RestSharp.dll",
+        "lib/net5.0/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.108.0.1.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -3723,6 +3754,7 @@
       "Correios-Api >= 1.1.1",
       "N2_App >= 1.0.0",
       "Npgsql >= 6.0.4",
+      "RestSharp >= 108.0.1",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
@@ -3771,6 +3803,10 @@
           "Npgsql": {
             "target": "Package",
             "version": "[6.0.4, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[108.0.1, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

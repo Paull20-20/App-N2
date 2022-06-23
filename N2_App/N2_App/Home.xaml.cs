@@ -4,9 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Correios;
+//using Correios;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+//using RestSharp;
+using System.Net.Http;
+
+
 
 
 namespace N2_App
@@ -20,37 +24,49 @@ namespace N2_App
         }
 
 
-        private void btnProcurar_Clicked(object sender, EventArgs e)
+        // Api utilizada: //https://docs.awesomeapi.com.br/api-de-moedas
+
+        private void moedas_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+
+        }
+
+        private async void btnProcurar_Clicked(object sender, EventArgs e)
+        {
+
 
             try
             {
 
-                if (string.IsNullOrEmpty(entCep.Text))
+                if (entDias.Text != null)
                 {
-                    DisplayAlert("Campo de busca do CEP vázio!", "Tente novamente", "Ok");
+                    var conjuntoConversao = moedas.Items[moedas.SelectedIndex];
+
+                    HttpClient http = new HttpClient();
+
+                    http.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/xml"));
+
+                    http.BaseAddress = new System.Uri("https://economia.awesomeapi.com.br/"); 
+
+                    HttpResponseMessage unificaDados = await http.GetAsync($"json/daily/{conjuntoConversao}/{entDias.Text}");
+
+                    var result = await unificaDados.Content.ReadAsStringAsync();
+                    lblMd01.Text = result.ToString().Replace(',', '\n').Replace('"', ' ').Replace('}', ' ');
                 }
                 else
                 {
-                    CorreiosApi correios = new CorreiosApi();
-
-                    Correios.CorreiosServiceReference.enderecoERP result = correios.consultaCEP(entCep.Text);
-                  
-                    lblCep2.Text = result.cep;
-                    lblEstado.Text = result.uf;
-                    lblCidade.Text = result.cidade;
-                    lblBairro.Text = result.bairro;
-                    lblRua.Text = result.end;
-
-
+                    await DisplayAlert("Campos vázios", "Tente novamente", "ok");
                 }
 
+            
+            }
+            catch(Exception erro)
+            {
+                Console.WriteLine(erro);    
             }
 
-            catch(Exception ex)
-            {
-                DisplayAlert("Erro ao buscar cep, confira o erro abaixo!", ex.Message, "Tentar novamente!");
-            }
+
 
         }
     }

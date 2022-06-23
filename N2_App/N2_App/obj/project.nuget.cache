@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "doVHcJAQ8ponCoJI3OIelFTigvzDfyYu+8Sb2YHVnBbnNsHIReDNJIf7aw/ixFfThMtjfD2/ZUrxNr5E1xfSsg==",
+  "dgSpecHash": "o85lzORAt0kkq0+3uaFiZFXJjU98Lb6Ip26ys5WWrDQ7NYX3M0FX+uMeetpsm4qpVoRFI7/0/hfbP+VBdcdjsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\paulo\\source\\repos\\N2_App\\N2_App\\N2_App\\N2_App.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\paulo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\npgsql\\6.0.4\\npgsql.6.0.4.nupkg.sha512",
+    "C:\\Users\\paulo\\.nuget\\packages\\restsharp\\108.0.1\\restsharp.108.0.1.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

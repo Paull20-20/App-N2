@@ -12,6 +12,7 @@
           "Correios-Api": "1.1.1",
           "NETStandard.Library": "2.0.3",
           "Npgsql": "6.0.4",
+          "RestSharp": "108.0.1",
           "System.ServiceModel.Primitives": "4.9.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -78,6 +79,17 @@
           "lib/netstandard2.0/Npgsql.dll": {
             "assemblyVersion": "6.0.4.0",
             "fileVersion": "6.0.4.0"
+          }
+        }
+      },
+      "RestSharp/108.0.1": {
+        "dependencies": {
+          "System.Text.Json": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "108.0.1.0",
+            "fileVersion": "108.0.1.0"
           }
         }
       },
@@ -435,6 +447,13 @@
       "sha512": "sha512-SJMlOmFHr32oOzVXeHmarGaBKkhi0wHVN/rzuu2tUSJ4Qx2AkHCpr9R/DhLWwDiklqgzFU++9wkFyGJxbx/zzg==",
       "path": "npgsql/6.0.4",
       "hashPath": "npgsql.6.0.4.nupkg.sha512"
+    },
+    "RestSharp/108.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XKwuwWq7A4dxZ8l9QkS2+ePLJ9ImmLaJSeFO6H2kpII4Us4n1NRs4w3c//8H2BYpL1XqBE8nmsd9aNCVBwXmOA==",
+      "path": "restsharp/108.0.1",
+      "hashPath": "restsharp.108.0.1.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",
